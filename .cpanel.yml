@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/nexabiec/expansion.nexabie.co.tz/
+    - export DEPLOYPATH=/home/nexabiec/sample.nexabie.co.tz/
     - /bin/cp /home/nexabiec/repositories/sample/index.html $DEPLOYPATH
     - /bin/cp /home/nexabiec/repositories/sample/style.css $DEPLOYPATH
     - /bin/chmod 644 $DEPLOYPATH/index.html
