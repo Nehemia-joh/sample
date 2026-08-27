@@ -1,5 +1,5 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/nexabiec/expansion.nexabie.co.tz/
+    - export DEPLOYPATH=/sample.nexabie.co.tz/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
