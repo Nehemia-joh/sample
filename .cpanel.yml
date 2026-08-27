@@ -1,4 +1,7 @@
+---
 deployment:
   tasks:
-    - export DEPLOYPATH=/sample.nexabie.co.tz/
+    - export DEPLOYPATH=/home/nexabiec/repositories/sample
     - /bin/cp index.html $DEPLOYPATH
+    - /bin/chmod 644 $DEPLOYPATH/index.html
+    - /bin/chmod 644 $DEPLOYPATH/.htaccess 2>/dev/null || true
